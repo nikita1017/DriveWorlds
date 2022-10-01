@@ -93,6 +93,7 @@ header h1
 .buy
 {
     display: inline-block;
+    text-align: center;
     margin-top: 20px;
     background: #6563EE;
     color: white;
@@ -113,6 +114,7 @@ header h1
 .tablo p
 {
     font-family: 'Intro Black';
+    text-align: center;
     color: #606266;
     margin-top: 20px;
 }
