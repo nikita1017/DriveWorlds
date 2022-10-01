@@ -78,6 +78,7 @@ header h1
 }
 .p
 {
+    font-family: 'Intro Black';
     color: white;
     margin-top: 80px;
     height: 32px;
@@ -98,13 +99,6 @@ header h1
     text-decoration: none;
     padding: 20px;
     width: 200px;
-    border-radius: 15px;
-}
-.userGames{
-    background-color: #6563EE;
-    padding: 5px;
-    width: 200px;
-    color: white;
     border-radius: 15px;
 }
 .tablo
@@ -129,6 +123,10 @@ header h1
     line-height: 1;
     color: white;
     margin-top: 150px;
+}
+.tablo a
+{
+    text-align: center;
 }
 .gh img
 {
