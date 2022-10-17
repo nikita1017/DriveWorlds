@@ -140,9 +140,20 @@ body
     background-color: aqua; 
     border-radius: 25px;
 }
+.information h2
+{
+    font-size: 25px;
+}
 #map
 {
     background-color: pink;
+}
+.map
+{
+    width: 300px;
+    height: 30px;
+    background-color: aquamarine;
+    border-radius: 25px;
 }
 html
 {
