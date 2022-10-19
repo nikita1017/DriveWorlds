@@ -142,7 +142,15 @@ body
 }
 .information h2
 {
+    color: white;
     font-size: 25px;
+    text-align: center;
+    padding: 15px;
+}
+.information p
+{
+    color: white;
+    font-size: 15px;
 }
 #map
 {
