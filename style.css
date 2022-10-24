@@ -19,7 +19,6 @@ body::-webkit-scrollbar-thumb
 body header
 {
     top: 0;
-    background-color: cyan;
     position: fixed;
     width: 100%;
     text-align: center;
@@ -64,7 +63,7 @@ header h1
 {
     display: inline-block;
     font-family: 'Raleway', sans-serif;
-    text-decoration: none;
+    text-decoration: none ;
     border-radius: 0.75rem;
     color: white;
     background: #253050 59%;
@@ -93,6 +92,7 @@ header h1
 }
 .buy
 {
+    font-family: 'Raleway', sans-serif;
     display: inline-block;
     margin-top: 20px;
     background: #6563EE;
