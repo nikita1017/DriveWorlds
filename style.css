@@ -16,9 +16,9 @@ body::-webkit-scrollbar-thumb
 {
     background: rgba(44, 67, 127, 1)
 }
-body header
+header
 {
-    top: 0;
+    top: 20px;
     position: fixed;
     width: 100%;
     text-align: center;
@@ -35,7 +35,7 @@ header h1
 {
     font-family: 'Raleway', sans-serif;
     line-height: 50px;
-    color: white;
+    color: #F3E1B8;
     float: left;
 
 }
@@ -65,8 +65,8 @@ header h1
     font-family: 'Raleway', sans-serif;
     text-decoration: none ;
     border-radius: 0.75rem;
-    color: white;
-    background: #253050 59%;
+    color: #2B2B2B;
+    background: #DACAA6;
     padding: 0 10px;
     line-height: 40px;
     font-style: normal;
@@ -79,11 +79,11 @@ header h1
 .p
 {
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: #474646;
     margin-top: 80px;
     height: 32px;
     text-align: center;
-    background: rgba(71, 99, 173, 0.21);
+    background: #F3E1B8;
     width: 1000px;
     margin-left: 280px;
     border-radius: 20px;
@@ -94,10 +94,9 @@ header h1
 {
     font-family: 'Raleway', sans-serif;
     display: inline-block;
-    margin-top: 20px;
-    background: #6563EE;
-    color: white;
     text-decoration: none;
+    color: #474646;
+    background-color: #F3E1B8;
     padding: 20px;
     width: 200px;
     border-radius: 15px;
@@ -120,23 +119,33 @@ header h1
 .tablo p
 {
     font-family: 'Raleway', sans-serif;
-    color: #606266;
-    margin-top: 20px;
+    text-align: center;
+    color: #D2D8E5;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .tablo h1
 {
     font-family: 'Raleway', sans-serif;
+    text-align: center;
     font-size: 4rem;
     line-height: 1;
-    color: white;
+    color: #474646;
+    background-color: #F3E1B8;
     margin-top: 150px;
+    border-radius: 46px;
+}
+.tablo img
+{
+    display: inline-block;
 }
 .tablo a
 {
     text-align: center;
 }
+
 .gh img
 {
     float: right;
-    margin-top: -390px;
+    margin: 50px;
 }
