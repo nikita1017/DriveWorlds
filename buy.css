@@ -41,6 +41,18 @@ body
     vertical-align: middle;
     top: 0px;
 }
+.blue-button {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    border-radius: 0.75rem;
+    color: #2B2B2B;
+    background: #DACAA6;
+    padding: 0 10px;
+    line-height: 40px;
+    font-style: normal;
+    margin: 0 2px;
+}
 .Discord
 {
     font-family: 'Intro Black';
@@ -177,6 +189,7 @@ body
 #map
 {
     background-color: pink;
+    margin-bottom: 7000px;
 }
 html
 {

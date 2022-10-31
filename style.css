@@ -95,11 +95,17 @@ header h1
     font-family: 'Raleway', sans-serif;
     display: inline-block;
     text-decoration: none;
+    position: relative;
     color: #474646;
     background-color: #F3E1B8;
+    
     padding: 20px;
-    width: 200px;
+    line-height: 61px;
+    width: 272px;
+    text-align: center;
+    padding: 0 20px;
     border-radius: 15px;
+    height: 61px;
 }
 .players-online
 {
@@ -129,19 +135,38 @@ header h1
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 4rem;
-    line-height: 1;
+    line-height: 113px;
     color: #474646;
     background-color: #F3E1B8;
     margin-top: 150px;
+    position: relative;
     border-radius: 46px;
+}
+.tablo span
+{
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    left: 50%;
+    line-height: 25px;
+    font-size: 20px;
 }
 .tablo img
 {
+    position: absolute;
     display: inline-block;
+    top: -8px;
+    /* vertical-align: middle; */
+    /* height: 61px; */
+    transform: translateX(-50%);
+    height: 77px;
+    left: 0;
+    /* transform: scale(1.263); */
 }
-.tablo a
+.buu a
 {
     text-align: center;
+    margin: -50px;
 }
 
 .gh img
