@@ -96,8 +96,6 @@ body
     /* height: 700px; */
     border-radius: 25px;
     margin-top: 180px;
-    box-shadow: 0px 0px 10px blue;
-    /* что бы убрать отступы между инлайн блоками */
     font-size: 0;
 
 }
@@ -125,16 +123,13 @@ body
 }
 #about-server
 {
-    background-color: gray;
+    color: white;
+    line-height: 25px;
 }
 .img-minecraft2
 {
     /* float: right; */
     padding-bottom: 0;
-}
-#about-us
-{
-    background-color: gold;
 }
 .one-server
 {
@@ -163,7 +158,6 @@ body
     margin: auto;
     width: 300px;
     height: 400px;
-    background-color: aqua; 
     border-radius: 25px;
 }
 .information h2
@@ -185,11 +179,8 @@ body
     display: inline-block;
     color: white;
     font-size: 25px;
-}
-#map
-{
-    background-color: pink;
-    margin-bottom: 7000px;
+    margin-left: 90px;
+    margin-top: 35px;
 }
 html
 {

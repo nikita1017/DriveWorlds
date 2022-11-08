@@ -174,3 +174,7 @@ header h1
     float: right;
     margin: 50px;
 }
+.hydrated
+{
+    vertical-align: middle;
+}
